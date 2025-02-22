@@ -16,6 +16,7 @@ namespace IT3B1_WinForm
             frmLogin login = new frmLogin();
             if (login.ShowDialog() == DialogResult.OK)
             {
+                //Run frmMain() after successful login
                 Application.Run(new frmMain());
             }
 
